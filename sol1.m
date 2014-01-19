@@ -26,7 +26,8 @@ tmax=t(end);
 
 
 %% define and plot transmitted pulse
-f0=7e6;
+f0 = 
+%f0=7e6;
 lambda=c/f0;
 Tp=1e-6;%pulse length
 tp=0:1/fs:Tp;tp=tp';
